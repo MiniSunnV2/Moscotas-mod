@@ -1,0 +1,902 @@
+{
+  "zorro_fuego.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.ambient",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "zorro_fuego.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.hurt",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "zorro_fuego.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.death",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "buho_nocturno.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.parrot.ambient",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "buho_nocturno.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.parrot.hurt",
+        "type": "event",
+        "pitch": 0.73,
+        "volume": 0.8
+      }
+    ]
+  },
+  "buho_nocturno.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.parrot.death",
+        "type": "event",
+        "pitch": 0.73,
+        "volume": 0.8
+      }
+    ]
+  },
+  "slime_gelatina.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.jump",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "slime_gelatina.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.hurt",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "slime_gelatina.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.slime.death",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ciervo_bosque.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.ambient",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ciervo_bosque.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.hurt",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ciervo_bosque.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.death",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "panda_bambu.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.ambient",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "panda_bambu.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.worried_ambient",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "panda_bambu.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.panda.death",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_hielo.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.ambient",
+        "type": "event",
+        "pitch": 1.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_hielo.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.hurt",
+        "type": "event",
+        "pitch": 1.99,
+        "volume": 0.8
+      }
+    ]
+  },
+  "dragon_hielo.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.death",
+        "type": "event",
+        "pitch": 1.99,
+        "volume": 0.8
+      }
+    ]
+  },
+  "gato_estelar.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.ambient",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.8
+      }
+    ]
+  },
+  "gato_estelar.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.hurt",
+        "type": "event",
+        "pitch": 1.16,
+        "volume": 0.8
+      }
+    ]
+  },
+  "gato_estelar.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.death",
+        "type": "event",
+        "pitch": 1.16,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lobo_ceniza.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.growl",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lobo_ceniza.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.hurt",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lobo_ceniza.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.death",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  },
+  "pulpo_coral.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.squid.ambient",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "pulpo_coral.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.squid.hurt",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "pulpo_coral.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.squid.death",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "mapache_ladron.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ocelot.ambient",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "mapache_ladron.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ocelot.hurt",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "mapache_ladron.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ocelot.death",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_musgo.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:block.moss.step",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_musgo.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.hurt",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "golem_musgo.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.iron_golem.death",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "tortuga_cristal.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.turtle.ambient_land",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "tortuga_cristal.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.turtle.hurt",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "tortuga_cristal.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.turtle.death",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "murcielago_luz.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.bat.ambient",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.8
+      }
+    ]
+  },
+  "murcielago_luz.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.bat.hurt",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "murcielago_luz.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.bat.death",
+        "type": "event",
+        "pitch": 1.26,
+        "volume": 0.8
+      }
+    ]
+  },
+  "rana_pantano.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.frog.ambient",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "rana_pantano.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.frog.hurt",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "rana_pantano.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.frog.death",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "fenix_cria.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.ambient",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "fenix_cria.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.hurt",
+        "type": "event",
+        "pitch": 1.68,
+        "volume": 0.8
+      }
+    ]
+  },
+  "fenix_cria.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.blaze.death",
+        "type": "event",
+        "pitch": 1.68,
+        "volume": 0.8
+      }
+    ]
+  },
+  "camaleon.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.axolotl.idle_air",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "camaleon.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.axolotl.hurt",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "camaleon.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.axolotl.death",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "erizo_cristal.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.pig.ambient",
+        "type": "event",
+        "pitch": 1.7,
+        "volume": 0.8
+      }
+    ]
+  },
+  "erizo_cristal.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.pig.hurt",
+        "type": "event",
+        "pitch": 1.78,
+        "volume": 0.8
+      }
+    ]
+  },
+  "erizo_cristal.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.pig.death",
+        "type": "event",
+        "pitch": 1.78,
+        "volume": 0.8
+      }
+    ]
+  },
+  "conejo_lunar.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.rabbit.ambient",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "conejo_lunar.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.rabbit.hurt",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "conejo_lunar.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.rabbit.death",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "yak_nieve.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.camel.ambient",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "yak_nieve.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.camel.hurt",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "yak_nieve.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.camel.death",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "medusa_flotante.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.dolphin.ambient",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "medusa_flotante.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.dolphin.hurt",
+        "type": "event",
+        "pitch": 1.58,
+        "volume": 0.8
+      }
+    ]
+  },
+  "medusa_flotante.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.dolphin.death",
+        "type": "event",
+        "pitch": 1.58,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ardilla_recolectora.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.ambient",
+        "type": "event",
+        "pitch": 1.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ardilla_recolectora.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event",
+        "pitch": 1.89,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ardilla_recolectora.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event",
+        "pitch": 1.89,
+        "volume": 0.8
+      }
+    ]
+  },
+  "oso_miel.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.ambient",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.8
+      }
+    ]
+  },
+  "oso_miel.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.hurt",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "oso_miel.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.death",
+        "type": "event",
+        "pitch": 1.37,
+        "volume": 0.8
+      }
+    ]
+  },
+  "cangrejo_arena.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.silverfish.ambient",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "cangrejo_arena.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.silverfish.hurt",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  },
+  "cangrejo_arena.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.silverfish.death",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lince_cumbres.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.stray_ambient",
+        "type": "event",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lince_cumbres.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.hurt",
+        "type": "event",
+        "pitch": 0.63,
+        "volume": 0.8
+      }
+    ]
+  },
+  "lince_cumbres.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cat.death",
+        "type": "event",
+        "pitch": 0.63,
+        "volume": 0.8
+      }
+    ]
+  },
+  "hada_flores.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.allay.ambient_with_item",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "hada_flores.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.allay.hurt",
+        "type": "event",
+        "pitch": 1.58,
+        "volume": 0.8
+      }
+    ]
+  },
+  "hada_flores.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.allay.death",
+        "type": "event",
+        "pitch": 1.58,
+        "volume": 0.8
+      }
+    ]
+  },
+  "serpiente_jade.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.endermite.ambient",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ]
+  },
+  "serpiente_jade.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.endermite.hurt",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "serpiente_jade.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.endermite.death",
+        "type": "event",
+        "pitch": 0.95,
+        "volume": 0.8
+      }
+    ]
+  },
+  "alpaca_arcoiris.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.llama.ambient",
+        "type": "event",
+        "pitch": 1.1,
+        "volume": 0.8
+      }
+    ]
+  },
+  "alpaca_arcoiris.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.llama.hurt",
+        "type": "event",
+        "pitch": 1.16,
+        "volume": 0.8
+      }
+    ]
+  },
+  "alpaca_arcoiris.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.llama.death",
+        "type": "event",
+        "pitch": 1.16,
+        "volume": 0.8
+      }
+    ]
+  },
+  "salamandra_lava.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.magma_cube.squish",
+        "type": "event",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ]
+  },
+  "salamandra_lava.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.magma_cube.hurt",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "salamandra_lava.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.magma_cube.death",
+        "type": "event",
+        "pitch": 1.05,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ent_pequeno.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.ambient",
+        "type": "event",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ent_pequeno.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.hurt",
+        "type": "event",
+        "pitch": 0.53,
+        "volume": 0.8
+      }
+    ]
+  },
+  "ent_pequeno.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie_villager.death",
+        "type": "event",
+        "pitch": 0.53,
+        "volume": 0.8
+      }
+    ]
+  },
+  "espiritu_end.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.vex.ambient",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ]
+  },
+  "espiritu_end.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.vex.hurt",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  },
+  "espiritu_end.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.vex.death",
+        "type": "event",
+        "pitch": 0.84,
+        "volume": 0.8
+      }
+    ]
+  }
+}

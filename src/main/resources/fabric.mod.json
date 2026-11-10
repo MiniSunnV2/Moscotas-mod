@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mascotas",
+  "version": "${version}",
+  "name": "Mascotas",
+  "description": "30 mascotas domesticables con modelos GeckoLib, sonidos propios, spawn natural y beneficios únicos.",
+  "authors": ["Mascotas Mod contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mascotas.MascotasMod"],
+    "client": ["com.mascotas.client.MascotasClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*",
+    "geckolib": ">=4.4"
+  }
+}

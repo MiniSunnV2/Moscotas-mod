@@ -1,0 +1,198 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.espiritu_end",
+        "texture_width": 128,
+        "texture_height": 128,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "body",
+          "pivot": [
+            0,
+            6.0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.5,
+                2,
+                -4.5
+              ],
+              "size": [
+                9,
+                8,
+                9
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "pivot": [
+            0,
+            9.0,
+            -4.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -3.0,
+                6,
+                -9.5
+              ],
+              "size": [
+                6,
+                6,
+                6
+              ],
+              "uv": [
+                36,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -1.5,
+                7,
+                -11.0
+              ],
+              "size": [
+                3,
+                2,
+                2
+              ],
+              "uv": [
+                60,
+                0
+              ]
+            }
+          ],
+          "parent": "body"
+        },
+        {
+          "name": "tail",
+          "pivot": [
+            0,
+            6.1,
+            3.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -0.5,
+                5.6,
+                3.5
+              ],
+              "size": [
+                1,
+                1,
+                5
+              ],
+              "uv": [
+                70,
+                0
+              ]
+            }
+          ],
+          "parent": "body"
+        },
+        {
+          "name": "tail_tip",
+          "pivot": [
+            0,
+            6.1,
+            8.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -0.5,
+                5.1,
+                8.0
+              ],
+              "size": [
+                1,
+                2,
+                2
+              ],
+              "uv": [
+                82,
+                0
+              ]
+            }
+          ],
+          "parent": "tail"
+        },
+        {
+          "name": "horn_l",
+          "pivot": [
+            1.5,
+            12,
+            -8.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                1.0,
+                12,
+                -8.5
+              ],
+              "size": [
+                1,
+                3,
+                1
+              ],
+              "uv": [
+                88,
+                0
+              ]
+            }
+          ],
+          "parent": "head"
+        },
+        {
+          "name": "horn_r",
+          "pivot": [
+            -1.5,
+            12,
+            -8.0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -2.0,
+                12,
+                -8.5
+              ],
+              "size": [
+                1,
+                3,
+                1
+              ],
+              "uv": [
+                92,
+                0
+              ]
+            }
+          ],
+          "parent": "head"
+        }
+      ]
+    }
+  ]
+}
